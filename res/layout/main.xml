@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView android:layout_width="500dp"
+                   android:layout_height="500dp"
+                   android:src="@drawable/angry_cat"
+                   android:layout_marginTop="30dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:layout_marginBottom="30dp"
+                />
+
+        <EditText android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text="222"
+
+                  android:hint="Enter some text here"
+                  android:inputType="textMultiLine"/>
+
+        <CheckBox
+                android:id="@+id/check_box"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Check box"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                />
+
+    </LinearLayout>
+</ScrollView>
+
